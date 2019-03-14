@@ -1,5 +1,5 @@
 ﻿<style>
-.modal-body>img {
+img.modal-img {
      display: block;
      width: 100%;
      height: auto;

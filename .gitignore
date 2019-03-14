@@ -4,3 +4,6 @@
 /**/obj/
 /**/bin/
 artifacts
+/src/DocFx.Plugin.ImageProcessor.NetStandard/Properties/PublishProfiles
+/src/DocFx.Plugin.ImageProcessor/.vs/DocFx.Plugin.ImageProcessor/v15/Server/sqlite3
+*.user

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>DocFx.Plugin.ImageProcessor</AssemblyName>
+    <RootNamespace>DocFx.Plugin.ImageProcessor</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\DocFx.Plugin.ImageProcessor\ImagePostProcessor.cs" Link="ImagePostProcessor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\DocFx.Plugin.ImageProcessor\modal.txt" Link="modal.txt" />
+    <EmbeddedResource Include="..\DocFx.Plugin.ImageProcessor\style.txt" Link="style.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.4.9" />
+    <PackageReference Include="Microsoft.Composition" Version="1.0.31" />
+    <PackageReference Include="Microsoft.DocAsCode.Plugins" Version="2.40.12" />
+  </ItemGroup>
+
+</Project>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocFx.Plugin.ImageProcessor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocFx.Plugin.ImageProcessor.Tests", "..\DocFx.Plugin.ImageProcessor.Tests\DocFx.Plugin.ImageProcessor.Tests.csproj", "{1DB37C7A-17F1-4EB3-A250-DF24E4E3F5E9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocFx.Plugin.ImageProcessor.NetStandard", "..\DocFx.Plugin.ImageProcessor.NetStandard\DocFx.Plugin.ImageProcessor.NetStandard.csproj", "{4468AF3F-EE50-4A65-A709-C4E272EC84C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +23,15 @@ Global
 		{1DB37C7A-17F1-4EB3-A250-DF24E4E3F5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DB37C7A-17F1-4EB3-A250-DF24E4E3F5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DB37C7A-17F1-4EB3-A250-DF24E4E3F5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4468AF3F-EE50-4A65-A709-C4E272EC84C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4468AF3F-EE50-4A65-A709-C4E272EC84C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4468AF3F-EE50-4A65-A709-C4E272EC84C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4468AF3F-EE50-4A65-A709-C4E272EC84C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0C25DAB-34F0-4B7F-8199-7BB60C521AC6}
 	EndGlobalSection
 EndGlobal
